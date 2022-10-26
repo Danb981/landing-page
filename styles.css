@@ -45,7 +45,7 @@ a{
 .hero-left{
     width: 600px;
     height: 200px;
-    flex: 0 0 auto;
+    flex: 0 0.25 auto;
     display: flex;
     flex-direction: column;
 }
@@ -53,7 +53,7 @@ a{
 .hero-header{
     font-size: 48px;
     color: #F9FAF8;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     margin: 10px;
 }
 
@@ -68,16 +68,23 @@ button{
     height: 30px;
     width: 100px;
     margin: 10px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
 }
 
 .hero-right{
+    min-width: 0px;
     width: 600px;
     height: 200px;
     flex: 0 1 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-pic{
-
+    height: 100%;
+    min-width: 0px;
+    flex: 0 1 auto;
 }
