@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-logo{
+    flex:0 0 auto;
+}
+
+.header-links{
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+
+    list-style: none;
+    font-size: 18pt;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    
+}
