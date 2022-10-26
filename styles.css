@@ -126,3 +126,23 @@ button{
     border-radius: 10px;
 }
 
+.testimonial{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-style: italic;
+}
+
+.footer{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
