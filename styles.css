@@ -36,6 +36,7 @@ a{
 
 .hero{
     display: flex;
+    min-height: 320px;
     flex: 1 0 auto;
     justify-content: center;
     align-items: center;
@@ -91,6 +92,37 @@ button{
 }
 
 .information-cards{
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
-    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    gap: 40px;
 }
+
+.information-heading{
+    font-size: 48px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.card-cont{
+    display: flex;
+    gap: 20px;
+}
+
+.card img{
+    height: 66%;
+    width: 100%;
+    border: 2px solid #3882F6;
+
+    border-radius: 10px;
+}
+
